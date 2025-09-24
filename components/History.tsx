@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Message } from '../types';
-import { TrashIcon } from './Icons';
+import { Message } from '../types.ts';
+import { TrashIcon } from './Icons.tsx';
 
 interface HistoryProps {
   history: Message[][];

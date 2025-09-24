@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { ActiveTab } from '../types';
-import { ChimarraoIcon, CoracaoIcon, RelogioIcon, PlusIcon } from './Icons';
+import { ActiveTab } from '../types.ts';
+import { ChimarraoIcon, CoracaoIcon, RelogioIcon, PlusIcon } from './Icons.tsx';
 
 interface SidebarProps {
   activeTab: ActiveTab;

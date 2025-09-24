@@ -1,13 +1,13 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { Message, Recipe, ActiveTab, Difficulty } from './types';
+import { Message, Recipe, ActiveTab, Difficulty } from './types.ts';
 import type { Chat } from '@google/genai';
-import { sendMessageToChat, createChatSession } from './services/geminiService';
-import ChatInterface from './components/ChatInterface';
-import Favorites from './components/Favorites';
-import History from './components/History';
-import Sidebar from './components/Sidebar';
-import { ChimarraoIcon } from './components/Icons';
+import { sendMessageToChat, createChatSession } from './services/geminiService.ts';
+import ChatInterface from './components/ChatInterface.tsx';
+import Favorites from './components/Favorites.tsx';
+import History from './components/History.tsx';
+import Sidebar from './components/Sidebar.tsx';
+import { ChimarraoIcon } from './components/Icons.tsx';
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<ActiveTab>(ActiveTab.Chat);

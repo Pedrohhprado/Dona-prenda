@@ -1,6 +1,7 @@
+
 import React, { useState } from 'react';
-import { Recipe } from '../types';
-import { CoracaoIcon, CompartilharIcon } from './Icons';
+import { Recipe } from '../types.ts';
+import { CoracaoIcon, CompartilharIcon } from './Icons.tsx';
 
 interface RecipeCardProps {
   recipe: Recipe;

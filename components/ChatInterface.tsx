@@ -1,8 +1,8 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { Message, Recipe, Difficulty } from '../types';
-import RecipeCard from './RecipeCard';
-import { EnviarIcon, CameraIcon, XIcon, SugerirIcon } from './Icons';
+import { Message, Recipe, Difficulty } from '../types.ts';
+import RecipeCard from './RecipeCard.tsx';
+import { EnviarIcon, CameraIcon, XIcon, SugerirIcon } from './Icons.tsx';
 
 interface ChatInterfaceProps {
   messages: Message[];

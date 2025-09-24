@@ -1,7 +1,7 @@
 
 import { GoogleGenAI, Type, Chat } from "@google/genai";
-import { Recipe, Difficulty } from '../types';
-import { SYSTEM_PROMPT } from '../constants';
+import { Recipe, Difficulty } from '../types.ts';
+import { SYSTEM_PROMPT } from '../constants.ts';
 
 const API_KEY = process.env.API_KEY;
 

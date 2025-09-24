@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Recipe } from '../types';
-import RecipeCard from './RecipeCard';
+import { Recipe } from '../types.ts';
+import RecipeCard from './RecipeCard.tsx';
 
 interface FavoritesProps {
   favorites: Recipe[];
