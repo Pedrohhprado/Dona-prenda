@@ -1,0 +1,7 @@
+{
+  "name": "Chatbot Culinária Gaúcha",
+  "description": "Um chatbot de culinária gaúcha que sugere receitas tradicionais do Rio Grande do Sul com base nos ingredientes que você tem em casa.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
